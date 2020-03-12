@@ -39,13 +39,13 @@ public class CirculoTeste {
 
     @Test
     public void metodoCalcularArea() {
-        Double valorEsperado = 75.0;
+        Double valorEsperado = 78.53981633974483;
         assertEquals(valorEsperado, c1.calcArea());
     }
 
     @Test
     public void metodoCalcularPerimetro() {
-        Double valorEsperado = 30.0;
+        Double valorEsperado = 31.41592653589793;
         assertEquals(valorEsperado, c1.calcPerimetro());
     }
 }

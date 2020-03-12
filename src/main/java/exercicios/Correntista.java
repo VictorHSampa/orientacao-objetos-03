@@ -29,7 +29,7 @@ public class Correntista {
     }
 
     public void setNome(String nome){
-        if (nome.length() < 2){
+        if (nome.trim().length() < 2){
             throw new IllegalArgumentException("nome invalido");
         }
         this.nome = nome;
@@ -40,7 +40,7 @@ public class Correntista {
     }
 
     public void setEmail(String email){
-        if (email.length() < 10){
+        if (email.trim().length() < 10){
             throw new IllegalArgumentException("email invalido");
         }
         this.email = email;
@@ -51,7 +51,7 @@ public class Correntista {
     }
 
     public void setTelefone(String telefone){
-        if (telefone.length() < 8){
+        if (telefone.trim().length() < 8){
             throw new IllegalArgumentException("telefone invalido");
         }
         this.telefone = telefone;

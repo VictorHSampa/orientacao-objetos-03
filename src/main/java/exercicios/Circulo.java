@@ -19,9 +19,9 @@ public class Circulo {
     }
 
     public Double calcArea(){
-        return (raio * raio) * 3.0;
+        return (raio * raio) * Math.PI;
     }
     public Double calcPerimetro(){
-        return (2.0*raio)*3.0;
+        return (2.0*raio)*Math.PI;
     }
 }
